@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet6" targetNamespace="http://tempuri.org/DataSet6.xsd" xmlns:mstns="http://tempuri.org/DataSet6.xsd" xmlns="http://tempuri.org/DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet6" msprop:Generator_UserDSName="DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vacc" msprop:Generator_TableClassName="vaccDataTable" msprop:Generator_TableVarName="tablevacc" msprop:Generator_TablePropName="vacc" msprop:Generator_RowDeletingName="vaccRowDeleting" msprop:Generator_RowChangingName="vaccRowChanging" msprop:Generator_RowEvHandlerName="vaccRowChangeEventHandler" msprop:Generator_RowDeletedName="vaccRowDeleted" msprop:Generator_UserTableName="vacc" msprop:Generator_RowChangedName="vaccRowChanged" msprop:Generator_RowEvArgName="vaccRowChangeEvent" msprop:Generator_RowClassName="vaccRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vaccine_ID" msprop:Generator_ColumnVarNameInTable="columnvaccine_ID" msprop:Generator_ColumnPropNameInRow="vaccine_ID" msprop:Generator_ColumnPropNameInTable="vaccine_IDColumn" msprop:Generator_UserColumnName="vaccine_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="vaccineCategory" msprop:Generator_ColumnVarNameInTable="columnvaccineCategory" msprop:Generator_ColumnPropNameInRow="vaccineCategory" msprop:Generator_ColumnPropNameInTable="vaccineCategoryColumn" msprop:Generator_UserColumnName="vaccineCategory" type="xs:string" minOccurs="0" />
+              <xs:element name="vaccineStatus" msprop:Generator_ColumnVarNameInTable="columnvaccineStatus" msprop:Generator_ColumnPropNameInRow="vaccineStatus" msprop:Generator_ColumnPropNameInTable="vaccineStatusColumn" msprop:Generator_UserColumnName="vaccineStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="barCodenum" msprop:Generator_ColumnVarNameInTable="columnbarCodenum" msprop:Generator_ColumnPropNameInRow="barCodenum" msprop:Generator_ColumnPropNameInTable="barCodenumColumn" msprop:Generator_UserColumnName="barCodenum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

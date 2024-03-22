@@ -1,0 +1,146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+contactTracing
+</name>
+</assembly>
+<members>
+<member name="T:contactTracing.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:contactTracing.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:contactTracing.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet1.peopleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet1.peopleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet1.peopleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:contactTracing.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet2.admnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet2.admnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet2.admnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:contactTracing.DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet3.healthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet3.healthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet3.healthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:contactTracing.DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet4.schedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet4.schedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet4.schedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:contactTracing.DataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet5.apptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet5.apptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet5.apptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:contactTracing.DataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet6.vaccDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet6.vaccRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:contactTracing.DataSet6.vaccRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

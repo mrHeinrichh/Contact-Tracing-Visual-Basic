@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3" msprop:Generator_UserDSName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="health" msprop:Generator_TableClassName="healthDataTable" msprop:Generator_TableVarName="tablehealth" msprop:Generator_TablePropName="health" msprop:Generator_RowDeletingName="healthRowDeleting" msprop:Generator_RowChangingName="healthRowChanging" msprop:Generator_RowEvHandlerName="healthRowChangeEventHandler" msprop:Generator_RowDeletedName="healthRowDeleted" msprop:Generator_UserTableName="health" msprop:Generator_RowChangedName="healthRowChanged" msprop:Generator_RowEvArgName="healthRowChangeEvent" msprop:Generator_RowClassName="healthRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="health_ID" msprop:Generator_ColumnVarNameInTable="columnhealth_ID" msprop:Generator_ColumnPropNameInRow="health_ID" msprop:Generator_ColumnPropNameInTable="health_IDColumn" msprop:Generator_UserColumnName="health_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="fever" msprop:Generator_ColumnVarNameInTable="columnfever" msprop:Generator_ColumnPropNameInRow="fever" msprop:Generator_ColumnPropNameInTable="feverColumn" msprop:Generator_UserColumnName="fever" type="xs:string" minOccurs="0" />
+              <xs:element name="drycough" msprop:Generator_ColumnVarNameInTable="columndrycough" msprop:Generator_ColumnPropNameInRow="drycough" msprop:Generator_ColumnPropNameInTable="drycoughColumn" msprop:Generator_UserColumnName="drycough" type="xs:string" minOccurs="0" />
+              <xs:element name="tiredness" msprop:Generator_ColumnVarNameInTable="columntiredness" msprop:Generator_ColumnPropNameInRow="tiredness" msprop:Generator_ColumnPropNameInTable="tirednessColumn" msprop:Generator_UserColumnName="tiredness" type="xs:string" minOccurs="0" />
+              <xs:element name="sorethroat" msprop:Generator_ColumnVarNameInTable="columnsorethroat" msprop:Generator_ColumnPropNameInRow="sorethroat" msprop:Generator_ColumnPropNameInTable="sorethroatColumn" msprop:Generator_UserColumnName="sorethroat" type="xs:string" minOccurs="0" />
+              <xs:element name="barCodenum" msprop:Generator_ColumnVarNameInTable="columnbarCodenum" msprop:Generator_ColumnPropNameInRow="barCodenum" msprop:Generator_ColumnPropNameInTable="barCodenumColumn" msprop:Generator_UserColumnName="barCodenum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
